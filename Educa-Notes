@@ -11,3 +11,11 @@ Subject 1
 			Content 3 (text)
 			Content 4 (file)
 			Content 5 (video)
+
+
+Project: educa
+Apps: 
+- courses: 
+	Models: Subject, Course, Module
+	
+	
