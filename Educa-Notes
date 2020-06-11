@@ -16,6 +16,6 @@ Subject 1
 Project: educa
 Apps: 
 - courses: 
-	Models: Subject, Course, Module
+	Models: Subject, Course, Module, Content
 	
 	
