@@ -59,6 +59,9 @@ class Text(ItemBase):
     content = models.TextField()
 
 class File(ItemBase):
+    file = models.FileField(upload_to='files')
+
+class Image(ItemBase):
     file = models.FileField(upload_to='images')
 
 class Video(ItemBase):
