@@ -27,7 +27,8 @@ urlpatterns = [
     path('students/',include('students.urls')),
     path('admin/', admin.site.urls),
     path('course/',include('courses.urls')),
-    path('api/',include('courses.api.urls',namespace='api'))
+    path('api/',include('courses.api.urls',namespace='api')),
+    path('chat/',include('chat.urls',namespace='chat')),
 ] 
 
 # serves media files during development
