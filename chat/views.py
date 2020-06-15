@@ -11,4 +11,4 @@ def course_chat_room(request, course_id):
     except:
         # user is not a student of the course or course does not exist
         return HttpResponseForbidden()
-    return render(request,'chat/room.html',{'coourse':course})
+    return render(request,'chat/room.html',{'course':course})
