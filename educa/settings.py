@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'memcache_status',
     'rest_framework',
     'chat',
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -155,3 +156,5 @@ REST_FRAMEWORK = {
     ]
 }
 
+# ROOT APP FOR ASGI
+ASGI_APPLICATION = 'educa.routing.application'
